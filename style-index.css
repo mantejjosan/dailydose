@@ -1,0 +1,98 @@
+/*setup sass variables*/
+:root{
+  --primary-color: turquoise;
+  --secondary-color: #2ecc71
+
+}
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Syne', sans-serif;
+  /*border: 1px dashed blueviolet;*/
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+header, main, footer{
+  max-width: 1366px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer{
+  height: 40vh;
+}
+
+nav{
+  height: 3rem;
+  padding: 1.2rem 0rem;
+
+}
+
+section{
+  margin: 1rem 0;
+  height: 70vh;
+}
+
+a{
+  text-decoration: none;
+  color: palegreen;
+}
+
+li{
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--secondary-color);
+}
+
+footer{
+  background-color: #010141;
+  color: beige;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.g1{
+  gap: 1.3rem;
+}
+
+.logo{
+  color: black;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.contact{
+  padding-top: 2rem;
+}
+
+.tagline{
+  font-size: 4rem;
+  color: black;
+}
+
+#earth-svg{
+  height: 3rem;
+  width: 3rem;
+}
+
+#ai{
+  padding: .41rem 3rem;
+  border-radius: 50px;
+  background-color: bisque;
+  color: white;
+}
+
+.keyword{
+  color: var(--secondary-color);
+}
