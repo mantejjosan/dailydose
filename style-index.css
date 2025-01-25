@@ -17,19 +17,34 @@ html, body{
   width: 100%;
 }
 
-header, main, footer{
+main{
+  padding:1rem 0;
+}
+
+
+#hero{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+header, main{
   max-width: 1366px;
+  margin: auto;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 footer{
   height: 40vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 nav{
   height: 3rem;
   padding: 1.2rem 0rem;
+  font-size: max(1.275vw, 1.3rem);
 
 }
 
@@ -62,6 +77,12 @@ footer{
   justify-content: space-between;
 }
 
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .g1{
   gap: 1.3rem;
 }
@@ -74,6 +95,9 @@ footer{
 
 .contact{
   padding-top: 2rem;
+  margin: auto;
+  padding: 1rem;
+  max-width: 1366px;
 }
 
 .tagline{
@@ -95,4 +119,8 @@ footer{
 
 .keyword{
   color: var(--secondary-color);
+}
+
+.hero-txt{
+  font-size: 9vw !important; 
 }
